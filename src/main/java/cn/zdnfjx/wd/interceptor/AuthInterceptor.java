@@ -23,11 +23,14 @@ public class AuthInterceptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
+
+        return true;
+        /*
         Map<String,String> cookies = reqestUtil.getCookies(request);
         //如果cookie不存在
         if (! cookies.containsKey("name")&& ! cookies.containsKey("passwd")){
             response.getWriter().print("you shuold login!");
-            return false;
+            return false;//false
         }
         //处理一下异常
         String password = user.getPasswd(cookies.get("name"));
@@ -39,6 +42,8 @@ public class AuthInterceptor implements HandlerInterceptor{
         String real = AuthUtil.StringToMd5(password);
         return real.equals(cookies.get("passwd"));
         // 只有返回true才会继续向下执行，返回false取消当前请求
+
+        */
     }
 
     @Override

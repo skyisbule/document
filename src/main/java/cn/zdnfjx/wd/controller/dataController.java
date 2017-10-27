@@ -37,4 +37,18 @@ public class dataController {
         return "error";
     }
 
+    @RequestMapping("/api/delete")
+    public String delete(int id){
+        if (data.deleteById(id))
+            return "success";
+        return "error";
+    }
+
+    @RequestMapping("/api/rename")
+    public String rename(String newname,int id){
+        if (data.rename(newname,id))
+            return "success";
+        return "error";
+    }
+
 }

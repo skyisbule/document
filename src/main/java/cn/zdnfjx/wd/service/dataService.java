@@ -73,4 +73,10 @@ public class dataService {
     }
 
     public String getId(){return data.getId();}
+
+    public boolean deleteById(int id){return data.deleteById(id);}
+
+    public boolean rename(String newname,int id){return data.rename(newname,id);}
+
+    public String getPowerByName(String name){return data.getPowerByName(name);}
 }

@@ -16,7 +16,6 @@ public class userService {
     }
 
     public String getPasswd(String username) {
-        System.out.println(user.getPasswd(username));
-        return "1";
+        return user.getPasswd(username);
     }
 }
