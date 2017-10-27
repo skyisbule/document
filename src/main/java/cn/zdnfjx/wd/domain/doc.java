@@ -8,6 +8,7 @@ public class doc {
     private int isfolder;
     private int father;
     private int belongto;
+    private int isdelete;
 
     public void setId(int id){
         this.id=id;
@@ -23,4 +24,6 @@ public class doc {
     public int getFather(){return father;}
     public void setBelongto(int b){this.belongto=b;}
     public int getBelongto(){return belongto;}
+    public void setIsdelete(int is){this.isdelete=is;}
+    public int getIsdelete(){return isdelete;}
 }

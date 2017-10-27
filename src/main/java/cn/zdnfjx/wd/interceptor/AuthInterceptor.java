@@ -1,6 +1,6 @@
 package cn.zdnfjx.wd.interceptor;
 
-import cn.zdnfjx.wd.dao.userDao;
+import cn.zdnfjx.wd.service.userService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,7 +18,7 @@ import cn.zdnfjx.wd.util.AuthUtil;
 public class AuthInterceptor implements HandlerInterceptor{
 
     @Autowired
-    userDao user;
+    userService user;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
