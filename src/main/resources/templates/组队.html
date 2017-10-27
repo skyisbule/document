@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>报名</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <link href="bm/monk.ui.min.css" rel="stylesheet" />
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+</script>
+</head>
+<body>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#team").hover(
+        function(){
+            
+        },
+        function(){
+            var str = document.getElementById("team");
+            $.get("/chongfu","team="+str.value,function(data){
+                if (data=="0") {
+                    alert("队伍以存在，提交代表加入此队伍。")
+                }
+            });
+        }
+    )
+});
+    </script>
+
+    <div class="monk-content-10">
+       <form method="post">
+        <!--=============开始=============-->
+            <div class="monk-form-item">
+                <label for="" class="monk-form-label">所属队伍的名字</label>
+                <div class="monk-form-wrap"  >
+                    <span class="monk-iconfont border-right icon-monk-input"></span>
+                    <input type="text" name="a1" id="team" class="monk-form-input normal" placeholder="如果独自一队请写“单人”" value=""/>
+                    <span class="monk-iconfont icon-monk-required"></span>
+                    <span class="monk-iconfont border-left icon-monk-dacha monk-clear-input"></span>
+                </div>
+            </div>
+            <div class="monk-form-item">
+                <label for="" class="monk-form-label">你的姓名</label>
+                <div class="monk-form-wrap">
+                    <span class="monk-iconfont border-right icon-monk-input"></span>
+                    <input type="text" name="a2" class="monk-form-input normal" placeholder="请输入你的名字" value="" />
+                    <span class="monk-iconfont icon-monk-required"></span>
+                    <span class="monk-iconfont border-left icon-monk-dacha monk-clear-input"></span>
+                </div>
+            </div>
+            <div class="monk-form-item">
+                <label for="" class="monk-form-label">你的学号</label>
+                <div class="monk-form-wrap">
+                    <span class="monk-iconfont border-right icon-monk-input"></span>
+                    <input type="text" name="a3" class="monk-form-input normal" placeholder="请输入你的学号" value="" />
+                    <span class="monk-iconfont icon-monk-required"></span>
+                    <span class="monk-iconfont border-left icon-monk-dacha monk-clear-input"></span>
+                </div>
+            </div>
+            <!--========分割线========-->
+            <div class="monk-form-item">
+                <label for="" class="monk-form-label">你的专业年级班级</label>
+                <div class="monk-form-wrap">
+                    <span class="monk-iconfont border-right icon-monk-input"></span>
+                    <input type="text" name="a4" class="monk-form-input normal" placeholder="如：17届计算机7班" value="" />
+                    <span class="monk-iconfont icon-monk-required"></span>
+                    <span class="monk-iconfont border-left icon-monk-dacha monk-clear-input"></span>
+                </div>
+            </div>
+
+            <!--========分割线========-->
+            <div class="monk-form-item">
+                <label for="" class="monk-form-label">微信号或者手机号</label>
+                <div class="monk-form-wrap">
+                    <span class="monk-iconfont border-right icon-monk-input"></span>
+                    <input type="text" name="a5" class="monk-form-input middle" placeholder="请输入你的联系方式" />
+                    <span class="monk-iconfont border-left icon-monk-dacha monk-clear-input"></span>
+                </div>
+                <div class="monk-form-tip">方便进行通知</div>
+            </div>
+                 
+            
+            
+           
+            <input type="submit" class="monk-input-button peterRiver" value="填好啦，提交！" />
+
+            </form>
+
+
+        </div>
+        <!--========分割线========-->
+        <script src="bm/monk.ui.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE> 文档中心</TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/wangEditor.min.js"></script>
+	<script type="text/javascript" src="js/build.js"></script>
+	<style type="text/css">
+.ztree li span.button.add {margin-left:2px; margin-right: -1px; background-position:-144px 0; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.new {margin-left:2px; margin-right: -1px; background-position:-127px 0; vertical-align:top; *vertical-align:middle}
+	</style>
+</HEAD>
+
+<BODY>
+
+
+
+<div class="guide">
+<a id="office" class="name" href="?belongto=1">办公室</a>
+<a id="skill" class="name" href="?belongto=2">技术部</a>
+<a id="service" class="name" href="?belongto=3">维修部</a>
+<a id="connection" class="name" href="?belongto=4">外联部</a>
+<a id="develop" class="name" href="?belongto=5">开发部</a>
+<a id="product" class="name" href="?belongto=6">产品部</a>
+<a id="plan" class="name" href="?belongto=7">策划部</a>
+<a id="communicate" class="name" href="?belongto=8">宣传部</a>
+</div>
+<div style="display: flex; min-height: 85vh; flex-direction: row;" class="content_wrap">
+
+	<div class="zTreeDemoBackground left">
+		<ul id="treeDemo" style="display: flex; order: -1; flex: 1; margin: 10px 10px 0px;height: 80vh;resize: none;" class="ztree"></ul>
+	</div>
+	<div style="flex:1;">
+		<div id="documentText" style="display: flex; flex: 1; margin: 10px 10px 0px; width: 95%; height: 81vh;resize: none;flex-direction: column;"></div>	
+	</div>	
+</div>
+<div>
+	<input class="save" id = "post" type="submit" value="保存">
+	</div>
+</BODY>
+</HTML>
