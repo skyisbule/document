@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d06b902a-e744-4fa1-bf17-9662b5b4599d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/dao/userDao.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/dao/userDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/domain/doc.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/domain/doc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/interceptor/AuthInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/interceptor/AuthInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/interceptor/Center.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/interceptor/Center.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/service/userService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/service/userService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -736,12 +731,20 @@
       <workItem from="1508828029548" duration="7712000" />
       <workItem from="1508930200029" duration="9830000" />
       <workItem from="1508991411122" duration="645000" />
-      <workItem from="1509070826965" duration="12595000" />
+      <workItem from="1509070826965" duration="12677000" />
     </task>
+    <task id="LOCAL-00001" summary="解决了拦截器bean无法注入的问题，解决了静态资源拦截器失效的问题。">
+      <created>1509085523732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509085523732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51342000" />
+    <option name="totallyTimeSpent" value="51424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="246" y="111" width="1256" height="833" extended-state="0" />
@@ -779,6 +782,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="解决了拦截器bean无法注入的问题，解决了静态资源拦截器失效的问题。" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决了拦截器bean无法注入的问题，解决了静态资源拦截器失效的问题。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
