@@ -729,7 +729,7 @@
       <workItem from="1508991411122" duration="645000" />
       <workItem from="1509070826965" duration="13291000" />
       <workItem from="1509102676803" duration="6007000" />
-      <workItem from="1509184802817" duration="2867000" />
+      <workItem from="1509184802817" duration="2871000" />
     </task>
     <task id="LOCAL-00001" summary="解决了拦截器bean无法注入的问题，解决了静态资源拦截器失效的问题。">
       <created>1509085523732</created>
@@ -759,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509191466364</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加了权限判断">
+      <created>1509191470310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509191470310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60912000" />
+    <option name="totallyTimeSpent" value="60916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="24" width="1256" height="833" extended-state="0" />
