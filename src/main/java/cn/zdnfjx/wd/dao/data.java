@@ -29,7 +29,7 @@ public interface data {
     @Update("update data set isdelete=1 where id=#{id}")
     public boolean deleteById(@Param("id") int id);
 
-    @Update("update data set name={newname} where id={id}")
+    @Update("update data set name=#{newname} where id=#{id}")
     public boolean rename(@Param("newname")String name,
                           @Param("id")int id);
 
