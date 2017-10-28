@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d06b902a-e744-4fa1-bf17-9662b5b4599d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/controller/dataController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/controller/dataController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/dao/data.java" afterPath="$PROJECT_DIR$/src/main/java/cn/zdnfjx/wd/dao/data.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/build.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -733,7 +729,7 @@
       <workItem from="1508991411122" duration="645000" />
       <workItem from="1509070826965" duration="13291000" />
       <workItem from="1509102676803" duration="6007000" />
-      <workItem from="1509184802817" duration="2852000" />
+      <workItem from="1509184802817" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="解决了拦截器bean无法注入的问题，解决了静态资源拦截器失效的问题。">
       <created>1509085523732</created>
@@ -756,11 +752,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509104834886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加了权限判断">
+      <created>1509191466364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509191466364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60897000" />
+    <option name="totallyTimeSpent" value="60912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="24" width="1256" height="833" extended-state="0" />
@@ -801,7 +804,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="解决了拦截器bean无法注入的问题，解决了静态资源拦截器失效的问题。" />
     <MESSAGE value="增加了修改名称和删除的api" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了修改名称和删除的api" />
+    <MESSAGE value="增加了权限判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了权限判断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
